@@ -5,6 +5,9 @@ export const colors = {
   secondary: "#FF6F61",
   textWhite: "#F8F9FA",
   creamWhite: "#FFFDD0",
+  btnColorGreen: "#50C878",
+  btnColorPurple: "#C8A2C8",
+  cardLigthGray: "#8C8C8C",
 };
 
 export const IS_IOS = Platform.OS === "ios";

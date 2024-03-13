@@ -35,5 +35,12 @@ export default {
       "ვფიქრობ, რომ ბარათები არ არის შემთხვევით განაწილებული",
     "DON'T WORRY, WE HAVE CHECKED. THE CARDS ARE RANDOM.":
       "არ ინერვიულოთ, ჩვენ გადავამოწმეთ. ბარათები შემთხვევითია.",
+    "Buy me a coffee": "მიყიდე ყავა",
+    "Tap to see your role": "დააწექი რომ ნახო როლი",
+    "You are an Imposter": "შენ ხარ მატყუარა",
+    "Try to understand what are the locals talking about":
+      "შეეცადე გამოიცნო რაზე ლაპარაკობენ ადგილობრივები",
+    "You are a local. All the players except for the impostor know the word. Ask others questions to find out which one of them is the Impostor.":
+      "შენ ხარ პატიოსანი. ყველა მოთამაშემ იცის სიტყვა გარდა მატყუარასი. დაუსვი კითხვები სხვა მოთამაშეებს, რათა გაიგო რომელია მატყუარა.",
   },
 };

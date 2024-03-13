@@ -33,5 +33,12 @@ export default {
     "I THINK THAT CARDS ARE NOT RANDOM.": "I THINK THAT CARDS ARE NOT RANDOM.",
     "DON'T WORRY, WE HAVE CHECKED. THE CARDS ARE RANDOM.":
       "DON'T WORRY, WE HAVE CHECKED. THE CARDS ARE RANDOM.",
+    "Buy me a coffee": "Buy me a coffee",
+    "Tap to see your role": "Tap to see your role",
+    "You are an Imposter": "You are an Imposter",
+    "Try to understand what are the locals talking about":
+      "Try to understand what are the locals talking about",
+    "You are a local. All the players except for the impostor know the word. Ask others questions to find out which one of them is the Impostor.":
+      "You are a local. All the players except for the impostor know the word. Ask others questions to find out which one of them is the Impostor.",
   },
 };

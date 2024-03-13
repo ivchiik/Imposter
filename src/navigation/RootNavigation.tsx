@@ -5,7 +5,7 @@ import {
 } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import { FAQ, Main, Translate } from "screens";
+import { FAQ, Main, PlayGame, Translate } from "screens";
 
 import {
   screenOptions,
@@ -35,6 +35,13 @@ export const RootNavigation = () => {
         <Stack.Screen
           name={ScreenRoutes.TRANSLATE}
           component={Translate}
+          options={{
+            animation: "fade",
+          }}
+        />
+        <Stack.Screen
+          name={ScreenRoutes.PLAYGAME}
+          component={PlayGame}
           options={{
             animation: "fade",
           }}

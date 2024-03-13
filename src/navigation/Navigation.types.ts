@@ -2,6 +2,7 @@ export enum ScreenRoutes {
   MAIN = "MAIN",
   FAQ = "FAQ",
   TRANSLATE = "TRANSLATE",
+  PLAYGAME = "PLAYGAME",
 }
 
 export const screenOptions = {
@@ -14,4 +15,5 @@ export interface RootStackParamList {
   MAIN: undefined;
   FAQ: undefined;
   TRANSLATE: undefined;
+  PLAYGAME: undefined;
 }

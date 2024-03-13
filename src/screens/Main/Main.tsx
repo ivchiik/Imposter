@@ -9,9 +9,13 @@ import { styles } from "./Styles";
 export const Main = () => {
   const navigation = useNavigation();
 
-  const handlePress = () => {};
+  const handlePlay = () => {
+    navigation.navigate("PLAYGAME" as never);
+  };
 
-  const handleExit = () => {
+  const handleOptions = () => {};
+
+  const handleSupport = () => {
     BackHandler.exitApp();
   };
 
@@ -19,9 +23,17 @@ export const Main = () => {
     <SafeAreaView style={styles.container}>
       <CustomHeader mainText="Imposter" FAQ canGoTranslate />
       <View style={styles.btnWrapper}>
-        <AppButton text="Play" onPress={handlePress} />
-        <AppButton text="Options" onPress={handlePress} />
-        <AppButton text="Quit" onPress={handleExit} />
+        <AppButton text="Play" onPress={handlePlay} style={styles.btnPlay} />
+        <AppButton
+          text="Options"
+          onPress={handleOptions}
+          style={styles.btnOptions}
+        />
+        <AppButton
+          text="Buy me a coffee"
+          onPress={handleSupport}
+          style={styles.btnSupport}
+        />
       </View>
     </SafeAreaView>
   );
