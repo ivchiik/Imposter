@@ -1,10 +1,12 @@
 import React from "react";
-import { View, BackHandler } from "react-native";
+import { View } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import { AppButton, AppText, CustomHeader } from "components";
+
 import { styles } from "./Styles";
+import Impostor from "assets/images/ImpostorIcon.svg";
 
 export const Main = () => {
   const navigation = useNavigation();
@@ -17,25 +19,19 @@ export const Main = () => {
     navigation.navigate("OPTIONS" as never);
   };
 
-  const handleSupport = () => {
-    BackHandler.exitApp();
-  };
-
   return (
     <SafeAreaView style={styles.container}>
       <CustomHeader mainText="Imposter" FAQ canGoTranslate />
-      <View style={styles.btnWrapper}>
-        <AppButton text="Play" onPress={handlePlay} style={styles.btnPlay} />
-        <AppButton
-          text="Options"
-          onPress={handleOptions}
-          style={styles.btnOptions}
-        />
-        <AppButton
-          text="Buy me a coffee"
-          onPress={handleSupport}
-          style={styles.btnSupport}
-        />
+      <View style={styles.wrapper}>
+        <Impostor width={300} height={300} />
+        <View style={styles.btnWrapper}>
+          <AppButton text="Play" onPress={handlePlay} style={styles.btnPlay} />
+          <AppButton
+            text="Options"
+            onPress={handleOptions}
+            style={styles.btnOptions}
+          />
+        </View>
       </View>
     </SafeAreaView>
   );

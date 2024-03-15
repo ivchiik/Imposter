@@ -6,11 +6,16 @@ export const styles = StyleSheet.create({
     flex: 1,
   },
 
-  btnWrapper: {
+  wrapper: {
     flex: 1,
-    justifyContent: "center",
+    justifyContent: "space-between",
     alignItems: "center",
-    gap: 70,
+    marginTop: 40,
+  },
+
+  btnWrapper: {
+    gap: 30,
+    marginBottom: 25,
   },
 
   text: {
@@ -24,12 +29,6 @@ export const styles = StyleSheet.create({
 
   btnOptions: {
     backgroundColor: colors.btnColorPurple,
-    height: 50,
-    borderRadius: 25,
-  },
-
-  btnSupport: {
-    backgroundColor: colors.btnColorGreen,
     height: 50,
     borderRadius: 25,
   },
