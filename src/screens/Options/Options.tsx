@@ -5,10 +5,13 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { AppButton, AppText, Counter, CustomHeader } from "components";
 
 import { styles } from "./Styles";
+import { useNavigation } from "@react-navigation/native";
 
 export const Options = () => {
   const [players, setPlayers] = useState(3);
   const [imposters, setImposters] = useState(1);
+
+  const navigation = useNavigation();
 
   const handlePlayerSub = () => {
     if (players > 3) {
@@ -34,6 +37,10 @@ export const Options = () => {
     }
   };
 
+  const handleSetTimer = () => {
+    navigation.navigate("TIMER" as never);
+  };
+
   return (
     <SafeAreaView style={styles.container}>
       <CustomHeader canGoBack mainText="Options" />
@@ -56,7 +63,11 @@ export const Options = () => {
         </View>
         <View style={styles.btnWrapper}>
           <AppButton text="Choose new pack" />
-          <AppButton text="Set Timer" style={styles.timerBtn} />
+          <AppButton
+            text="Set Timer"
+            style={styles.timerBtn}
+            onPress={handleSetTimer}
+          />
         </View>
       </View>
     </SafeAreaView>

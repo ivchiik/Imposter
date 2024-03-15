@@ -33,7 +33,7 @@ export const PlayGame = () => {
         </View>
         {/* Back Side */}
         <View style={styles.back}>
-          {!spy ? (
+          {spy ? (
             <View style={styles.backWrapper}>
               <Impostor width={150} height={150} />
               <AppText style={styles.impostorText}>You are an Imposter</AppText>

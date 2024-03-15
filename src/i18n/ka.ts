@@ -46,5 +46,6 @@ export default {
     Imposters: "მატყუარები",
     "Choose new pack": "აირჩიე ახალი პაკეტი",
     "Set Timer": "დააყენე წამზომი",
+    Timer: "წამზომი",
   },
 };

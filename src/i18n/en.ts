@@ -44,5 +44,6 @@ export default {
     Imposters: "Imposters",
     "Choose new pack": "Choose new pack",
     "Set Timer": "Set Timer",
+    Timer: "Timer",
   },
 };

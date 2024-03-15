@@ -3,6 +3,7 @@ import { Dimensions, Platform } from "react-native";
 export const colors = {
   mainColor: "#343A40",
   secondary: "#FF6F61",
+  backgroundColor: "#36454F",
   textWhite: "#F8F9FA",
   creamWhite: "#FFFDD0",
   btnColorGreen: "#50C878",
