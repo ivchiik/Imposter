@@ -13,7 +13,9 @@ export const Main = () => {
     navigation.navigate("PLAYGAME" as never);
   };
 
-  const handleOptions = () => {};
+  const handleOptions = () => {
+    navigation.navigate("OPTIONS" as never);
+  };
 
   const handleSupport = () => {
     BackHandler.exitApp();
