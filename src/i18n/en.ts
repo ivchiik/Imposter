@@ -40,5 +40,9 @@ export default {
       "Try to understand what are the locals talking about",
     "You are a local. All the players except for the impostor know the word. Ask others questions to find out which one of them is the Impostor.":
       "You are a local. All the players except for the impostor know the word. Ask others questions to find out which one of them is the Impostor.",
+    Players: "Players",
+    Imposters: "Imposters",
+    "Choose new pack": "Choose new pack",
+    "Set Timer": "Set Timer",
   },
 };

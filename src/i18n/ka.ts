@@ -42,5 +42,9 @@ export default {
       "შეეცადე გამოიცნო რაზე ლაპარაკობენ ადგილობრივები",
     "You are a local. All the players except for the impostor know the word. Ask others questions to find out which one of them is the Impostor.":
       "შენ ხარ პატიოსანი. ყველა მოთამაშემ იცის სიტყვა გარდა მატყუარასი. დაუსვი კითხვები სხვა მოთამაშეებს, რათა გაიგო რომელია მატყუარა.",
+    Players: "მოთამაშეები",
+    Imposters: "მატყუარები",
+    "Choose new pack": "აირჩიე ახალი პაკეტი",
+    "Set Timer": "დააყენე წამზომი",
   },
 };
