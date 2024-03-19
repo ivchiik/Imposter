@@ -40,7 +40,14 @@ export const styles = StyleSheet.create({
     marginBottom: 30,
   },
 
+  packBtn: {
+    borderRadius: 25,
+    height: 50,
+  },
+
   timerBtn: {
     backgroundColor: colors.btnColorPurple,
+    borderRadius: 25,
+    height: 50,
   },
 });

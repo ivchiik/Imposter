@@ -5,7 +5,16 @@ import {
 } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import { FAQ, Main, Options, PlayGame, Timer, Translate } from "screens";
+import {
+  FAQ,
+  Main,
+  OnBoarding,
+  Options,
+  Packs,
+  PlayGame,
+  Timer,
+  Translate,
+} from "screens";
 
 import {
   screenOptions,
@@ -19,7 +28,17 @@ export const navigationRef = createNavigationContainerRef();
 export const RootNavigation = () => {
   return (
     <NavigationContainer ref={navigationRef}>
-      <Stack.Navigator screenOptions={screenOptions}>
+      <Stack.Navigator
+        screenOptions={screenOptions}
+        initialRouteName={ScreenRoutes.ONBOARDING}
+      >
+        <Stack.Screen
+          name={ScreenRoutes.ONBOARDING}
+          component={OnBoarding}
+          options={{
+            animation: "fade",
+          }}
+        />
         <Stack.Screen
           name={ScreenRoutes.MAIN}
           component={Main}
@@ -56,6 +75,13 @@ export const RootNavigation = () => {
         <Stack.Screen
           name={ScreenRoutes.TIMER}
           component={Timer}
+          options={{
+            animation: "fade",
+          }}
+        />
+        <Stack.Screen
+          name={ScreenRoutes.PACKS}
+          component={Packs}
           options={{
             animation: "fade",
           }}

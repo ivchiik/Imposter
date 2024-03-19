@@ -45,5 +45,23 @@ export default {
     "Choose new pack": "Choose new pack",
     "Set Timer": "Set Timer",
     Timer: "Timer",
+    Next: "Next",
+    "Let's play Imposter!": "Let's play Imposter!",
+    "Swipe left to find out what to do.": "Swipe left to find out what to do.",
+    "There are locals and the Imposter. Pass the phone around to get your roles. All the locals will see the word while the Imposter will not.":
+      "There are locals and the Imposter. Pass the phone around to get your roles. All the locals will see the word while the Imposter will not.",
+    "Ask each other questions connected with the word. For example: 'When have you last been to this place?'After you have answered a question it's your turn to ask one.":
+      "Ask each other questions connected with the word. For example: 'When have you last been to this place?'After you have answered a question it's your turn to ask one.",
+    "Listen to the other players' answers: the Imposter doesn't know the word, so their answers might be inaccurate.":
+      "Listen to the other players' answers: the Imposter doesn't know the word, so their answers might be inaccurate.",
+    "If you have a guess about who the Imposter is, say: 'I know which one of you is the Imposter.' On the count of three, everyone should point at someone who, in their opinion, is likely to be the Imposter.":
+      "If you have a guess about who the Imposter is, say: 'I know which one of you is the Imposter.' On the count of three, everyone should point at someone who, in their opinion, is likely to be the Imposter.",
+    "Have you all chosen the same person? They have to reveal their role. If they are the Imposter, the locals win. If they are a local, the Imposter wins. Have you pointed at different people? Continue the game.":
+      "Have you all chosen the same person? They have to reveal their role. If they are the Imposter, the locals win. If they are a local, the Imposter wins. Have you pointed at different people? Continue the game.",
+    "If the Imposter has an idea what the word is, they can name it. If they are right, the Imposter wins. If they name a incorrect word, the locals win.":
+      "If the Imposter has an idea what the word is, they can name it. If they are right, the Imposter wins. If they name a incorrect word, the locals win.",
+    "Don't forget about time. The clock is ticking, hurry up! In the new game, the first person to ask the question is the Imposter from the previous game.":
+      "Don't forget about time. The clock is ticking, hurry up! In the new game, the first person to ask the question is the Imposter from the previous game.",
+    Packs: "Packs",
   },
 };

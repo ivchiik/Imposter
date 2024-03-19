@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { useNavigation } from "@react-navigation/native";
 
 import { AppButton, AppText, Counter, CustomHeader } from "components";
 
 import { styles } from "./Styles";
-import { useNavigation } from "@react-navigation/native";
 
 export const Options = () => {
   const [players, setPlayers] = useState(3);
@@ -41,6 +41,10 @@ export const Options = () => {
     navigation.navigate("TIMER" as never);
   };
 
+  const handleChangePack = () => {
+    navigation.navigate("PACKS" as never);
+  };
+
   return (
     <SafeAreaView style={styles.container}>
       <CustomHeader canGoBack mainText="Options" />
@@ -62,7 +66,11 @@ export const Options = () => {
           />
         </View>
         <View style={styles.btnWrapper}>
-          <AppButton text="Choose new pack" />
+          <AppButton
+            text="Choose new pack"
+            onPress={handleChangePack}
+            style={styles.packBtn}
+          />
           <AppButton
             text="Set Timer"
             style={styles.timerBtn}

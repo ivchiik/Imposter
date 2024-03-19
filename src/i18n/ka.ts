@@ -47,5 +47,24 @@ export default {
     "Choose new pack": "აირჩიე ახალი პაკეტი",
     "Set Timer": "დააყენე წამზომი",
     Timer: "წამზომი",
+    Next: "შემდეგი",
+    "Let's play Imposter!": "ვითამაშოთ მატყუარა!",
+    "Swipe left to find out what to do.":
+      "გაწიე მარცხნივ, რომ გაიგო რა უნდა გააკეთო.",
+    "There are locals and the Imposter. Pass the phone around to get your roles. All the locals will see the word while the Imposter will not.":
+      "არიან ადგილობრივები და მატყუარა. გადააწოდეთ ტელეფონი ყველას თქვენი როლების სანახავად. ყველა ადგილობრივი შეძლებს დაინახოს სიტყვა, ხოლო მატყუარა - ვერა.",
+    "Ask each other questions connected with the word. For example: 'When have you last been to this place?'After you have answered a question it's your turn to ask one.":
+      "დაუსვით ერთმანეთს კითხვები, რომლებიც დაკავშირებულია სიტყვასთან. მაგალითად: 'როდის იყავით ამ ადგილას ბოლოს?' მას შემდეგ, რაც თქვენ უპასუხეთ კითხვას, თქვენი ჯერია დასვათ ერთი.",
+    "Listen to the other players' answers: the Imposter doesn't know the word, so their answers might be inaccurate.":
+      "მოუსმინეთ სხვა მოთამაშეების პასუხებს: მატყუარამ არ იცის სიტყვა, ამიტომ მათი პასუხები შეიძლება იყოს არაზუსტი.",
+    "If you have a guess about who the Imposter is, say: 'I know which one of you is the Imposter.' On the count of three, everyone should point at someone who, in their opinion, is likely to be the Imposter.":
+      "თუ თქვენ იცით, თუ ვინ არის მატყუარა, თქვით: 'მე ვიცი, რომელი თქვენგანია მატყუარა'. ამ შემთხვევაში, ყველამ უნდა მიუთითოს ვინმეზე, ვინც, მათი აზრით, სავარაუდოდ, არის მატყუარა.",
+    "Have you all chosen the same person? They have to reveal their role. If they are the Imposter, the locals win. If they are a local, the Imposter wins. Have you pointed at different people? Continue the game.":
+      "ყველამ ერთი და იგივე ადამიანი აირჩია? მან უნდა გამოავლინოს თავისი როლი. თუ ის არის მატყუარა, ადგილობრივები იმარჯვებენ. თუ ის ადგილობრივია, მატყუარა იგებს. თუ მიუთითეთ სხვადასხვა ადამიანებზე? განაგრძეთ თამაში.",
+    "If the Imposter has an idea what the word is, they can name it. If they are right, the Imposter wins. If they name a incorrect word, the locals win.":
+      "თუ მატყუარას აქვს წარმოდგენა, რა არის ეს სიტყვა, მას შეუძლია დაასახელოს იგი. თუ ის მართალია, მატყუარა იმარჯვებს. თუ ის დაასახელებს არასწორ სიტყვას, ადგილობრივები იმარჯვებენ.",
+    "Don't forget about time. The clock is ticking, hurry up! In the new game, the first person to ask the question is the Imposter from the previous game.":
+      "არ დაგავიწყდეთ დრო. საათი წიკწიკებს, იჩქარეთ! ახალ თამაშში პირველი ვინც სვამს კითხვას არის წინა თამაშის მატყუარა.",
+    Packs: "პაკეტები",
   },
 };

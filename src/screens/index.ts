@@ -4,3 +4,5 @@ export { Translate } from "./Translate/Translate";
 export { PlayGame } from "./PlayGame/PlayGame";
 export { Options } from "./Options/Options";
 export { Timer } from "./Timer/Timer";
+export { OnBoarding } from "./OnBoarding/OnBoarding";
+export { Packs } from "./Packs/Packs";

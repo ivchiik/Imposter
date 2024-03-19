@@ -3,7 +3,7 @@ import { View } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import { AppButton, AppText, CustomHeader } from "components";
+import { AppButton, CustomHeader } from "components";
 
 import { styles } from "./Styles";
 import Impostor from "assets/images/ImpostorIcon.svg";
