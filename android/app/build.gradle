@@ -83,7 +83,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.impostor"
+    namespace "com.impostor.game"
     defaultConfig {
         applicationId 'com.impostor.game'
         minSdkVersion rootProject.ext.minSdkVersion
