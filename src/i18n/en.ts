@@ -63,5 +63,8 @@ export default {
     "Don't forget about time. The clock is ticking, hurry up! In the new game, the first person to ask the question is the Imposter from the previous game.":
       "Don't forget about time. The clock is ticking, hurry up! In the new game, the first person to ask the question is the Imposter from the previous game.",
     Packs: "Packs",
+    "New pack": "New pack",
+    "Type...": "Type...",
+    Save: "Save",
   },
 };

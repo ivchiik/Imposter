@@ -14,6 +14,7 @@ import {
   PlayGame,
   Timer,
   Translate,
+  WordScreen,
 } from "screens";
 
 import {
@@ -82,6 +83,13 @@ export const RootNavigation = () => {
         <Stack.Screen
           name={ScreenRoutes.PACKS}
           component={Packs}
+          options={{
+            animation: "fade",
+          }}
+        />
+        <Stack.Screen
+          name={ScreenRoutes.WORDSCREEN}
+          component={WordScreen}
           options={{
             animation: "fade",
           }}

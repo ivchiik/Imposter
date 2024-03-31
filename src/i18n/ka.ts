@@ -66,5 +66,8 @@ export default {
     "Don't forget about time. The clock is ticking, hurry up! In the new game, the first person to ask the question is the Imposter from the previous game.":
       "არ დაგავიწყდეთ დრო. საათი წიკწიკებს, იჩქარეთ! ახალ თამაშში პირველი ვინც სვამს კითხვას არის წინა თამაშის მატყუარა.",
     Packs: "პაკეტები",
+    "New pack": "ახალი პაკეტი",
+    "Type...": "აკრიფე...",
+    Save: "დამახსოვრება",
   },
 };

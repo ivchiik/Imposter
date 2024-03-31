@@ -6,3 +6,4 @@ export { Options } from "./Options/Options";
 export { Timer } from "./Timer/Timer";
 export { OnBoarding } from "./OnBoarding/OnBoarding";
 export { Packs } from "./Packs/Packs";
+export { WordScreen } from "./WordScreen/WordScreen";

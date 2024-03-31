@@ -6,7 +6,8 @@ export enum ScreenRoutes {
   OPTIONS = "OPTIONS",
   TIMER = "TIMER",
   ONBOARDING = "ONBOARDING",
-  PACKS = 'PACKS'
+  PACKS = "PACKS",
+  WORDSCREEN = "WORDSCREEN",
 }
 
 export const screenOptions = {
@@ -24,4 +25,5 @@ export interface RootStackParamList {
   TIMER: undefined;
   ONBOARDING: undefined;
   PACKS: undefined;
+  WORDSCREEN: undefined;
 }

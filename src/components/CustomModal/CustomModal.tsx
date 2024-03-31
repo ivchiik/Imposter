@@ -7,6 +7,8 @@ import { AppButton, AppText } from "components";
 import { styles } from "./Styles";
 import { colors } from "constants/index";
 import Close from "assets/images/CloseIcon.svg";
+import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 interface CustomModalProps {
   isVisible?: boolean;
@@ -17,6 +19,7 @@ interface CustomModalProps {
 
 export const CustomModal = (props: CustomModalProps) => {
   const { isVisible, hide, title, close } = props;
+  const { t } = useTranslation()
 
   const handlePress = () => {};
 
@@ -34,7 +37,7 @@ export const CustomModal = (props: CustomModalProps) => {
           <View style={styles.modalFooter}>
             <View style={styles.nameInputContainer}>
               <TextInput
-                placeholder="Type..."
+                placeholder={t("Type...")}
                 placeholderTextColor={colors.textWhite}
                 style={styles.nameInput}
               />

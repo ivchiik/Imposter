@@ -14,6 +14,5 @@ export const styles = StyleSheet.create({
 
   container: {
     alignItems: "center",
-    marginBottom: 50,
   },
 });
