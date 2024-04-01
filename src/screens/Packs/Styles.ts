@@ -6,6 +6,11 @@ export const styles = StyleSheet.create({
     flex: 1,
   },
 
+  list: {
+    height: 350,
+    marginBottom: 30,
+  },
+
   line: {
     backgroundColor: colors.cardLigthGray,
     height: 0.5,
@@ -13,6 +18,7 @@ export const styles = StyleSheet.create({
   },
 
   container: {
+    marginTop: 40,
     alignItems: "center",
   },
 });

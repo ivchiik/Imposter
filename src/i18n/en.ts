@@ -66,5 +66,6 @@ export default {
     "New pack": "New pack",
     "Type...": "Type...",
     Save: "Save",
+    "New word": "New word",
   },
 };

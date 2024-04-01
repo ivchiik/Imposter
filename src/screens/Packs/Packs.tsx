@@ -4,8 +4,8 @@ import { View, Text, FlatList, Pressable } from "react-native";
 import { AppText, CustomHeader, Pack, CustomModal } from "components";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import { styles } from "./Styles";
 import { data } from "./Packs.data";
+import { styles } from "./Styles";
 import Add from "assets/images/AddIcon.svg";
 
 export const Packs = () => {
@@ -22,15 +22,17 @@ export const Packs = () => {
   return (
     <SafeAreaView style={styles.mainContainer}>
       <CustomHeader canGoBack mainText="Packs" />
-      <FlatList
-        data={data}
-        renderItem={({ item }) => (
-          <>
-            <Pack name={item.name} />
-            <View style={styles.line} />
-          </>
-        )}
-      />
+      <View style={styles.list}>
+        <FlatList
+          data={data}
+          renderItem={({ item }) => (
+            <>
+              <Pack name={item.name} />
+              <View style={styles.line} />
+            </>
+          )}
+        />
+      </View>
       <Pressable style={styles.container} onPress={handleModalPress}>
         <Add width={100} height={100} />
       </Pressable>
