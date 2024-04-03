@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-wheel-pick/src/picker.js b/node_modules/react-native-wheel-pick/src/picker.js
+index f86dd33..0d9cd5c 100644
+--- a/node_modules/react-native-wheel-pick/src/picker.js
++++ b/node_modules/react-native-wheel-pick/src/picker.js
+@@ -27,7 +27,7 @@ export default class Picker extends Component {
+   };
+ 
+   static defaultProps = {
+-    textColor: '#333',
++    textColor: '#FF6F61',
+     textSize: 26,
+     itemStyle: null,
+     // onValueChange: () => {}, // Require
