@@ -2,9 +2,13 @@ import { StyleSheet } from "react-native";
 import { colors } from "constants/index";
 
 export const styles = StyleSheet.create({
+  mainContainer: {
+    flex: 1,
+  },
+
   list: {
     height: 350,
-    marginBottom: 30,
+    marginTop: 10,
   },
 
   line: {
@@ -14,7 +18,8 @@ export const styles = StyleSheet.create({
   },
 
   container: {
-    marginTop: 40,
+    flex: 1,
     alignItems: "center",
+    justifyContent: "center",
   },
 });

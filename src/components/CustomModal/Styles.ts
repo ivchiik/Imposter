@@ -3,7 +3,6 @@ import { WIDTH, colors } from "constants/index";
 
 export const styles = StyleSheet.create({
   container: {
-    flex: 1,
     justifyContent: "center",
     alignItems: "center",
   },
@@ -11,13 +10,13 @@ export const styles = StyleSheet.create({
   insideContainer: {
     backgroundColor: colors.backgroundColor,
     position: "absolute",
+    alignSelf: "center",
+    alignItems: "center",
+    justifyContent: "space-between",
     top: "40%",
     width: 300,
     height: 175,
     padding: 12,
-    alignSelf: "center",
-    alignItems: "center",
-    justifyContent: "space-between",
     borderRadius: 12,
   },
 
@@ -57,8 +56,8 @@ export const styles = StyleSheet.create({
   },
 
   btn: {
+    width: '100%',
     height: 35,
-    width: WIDTH - 100,
     borderRadius: 12,
   },
 

@@ -19,7 +19,7 @@ interface CustomModalProps {
 
 export const CustomModal = (props: CustomModalProps) => {
   const { isVisible, hide, title, close } = props;
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   const handlePress = () => {};
 
@@ -42,12 +42,14 @@ export const CustomModal = (props: CustomModalProps) => {
                 style={styles.nameInput}
               />
             </View>
-            <AppButton
-              text="Save"
-              style={styles.btn}
-              styleText={styles.btnText}
-              onPress={handlePress}
-            />
+            <View>
+              <AppButton
+                text="Save"
+                style={styles.btn}
+                styleText={styles.btnText}
+                onPress={handlePress}
+              />
+            </View>
           </View>
         </View>
       </ReactNativeModal>
